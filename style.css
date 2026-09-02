@@ -47,7 +47,7 @@ h2 {
     font-size: 20px;
     line-height: 1.75;
     letter-spacing: .25px;
-    margin: 50px;
+    margin: 20px;
  }
 
 .left-align{
@@ -92,8 +92,9 @@ div {
 }
 
 .image-container {
-  display: flex;
+  display: grid;
   gap: 10px;
+  grid-template-columns: (repeat(2, minmax(300px, 1fr)));
 }
 
 .image-container img {
