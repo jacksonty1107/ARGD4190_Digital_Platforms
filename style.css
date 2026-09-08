@@ -99,7 +99,7 @@ div {
 
 .image-container img {
   width: 100%;
-  max-width: 33.33%;
+  max-width: 50%;
   height: auto;
 }
 
@@ -119,3 +119,9 @@ ul {
     color: #CFBAF7;
     letter-spacing: 2px;
 }
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: clamp(1rem, 2.5vw, 3rem)
+    }
+    }   
